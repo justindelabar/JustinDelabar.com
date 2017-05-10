@@ -31,7 +31,7 @@ get_header(); ?>
 
 			<figure class="columns large-6 left" id="portrait">
 
-				<img src="/wp-content/themes/v5/img/me.png" class="columns large-12">
+				<img src="wp-content/themes/v5/img/me.png" class="columns large-12">
 
 			</figure>
 

@@ -15,11 +15,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-<link href='http://fonts.googleapis.com/css?family=Signika:300,400,600' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic|Fjalla+One' rel='stylesheet' type='text/css'>
-
 
 <?php wp_head(); ?>
+<link href="https://fonts.googleapis.com/css?family=Signika:300,400" rel="stylesheet">
+
 <!--[if lt IE 9]>
 <link rel="stylesheet" href="/css/ie.css">
 <![endif]-->
@@ -28,8 +27,8 @@
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-<script src="//use.typekit.net/kkc2cjm.js"></script>
-<script>try{Typekit.load();}catch(e){}</script>	
+<script src="https://use.typekit.net/awp0yow.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 <?php $class='';
 if(is_single()) {

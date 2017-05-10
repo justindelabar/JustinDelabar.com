@@ -908,7 +908,7 @@ body.home #content {
 	text-align: left;
 	}
 #intro h1, h1.page-title {
-	font-family: 'Signika', sans-serif;
+	font-family: "rooney-sans",sans-serif;
 	font-weight: 700;
 	color: #333333; /*435D7A*/
 	font-size: 4em;
@@ -941,7 +941,7 @@ h1.entry-title:after, body.page-id-6 h2:after {
 	z-index: 99;
 }
 #logo {
-	background:url(/wp-content/themes/v5/img/logo-black.png);
+	background:url(img/logo-black.png);
 	width: 47px;
 	height: 26px;
 	display: block;
@@ -1056,7 +1056,12 @@ body.home .overlay {
 	padding-right: 5px;
 	display:inline;
 	transition: all .2s ease-in-out;
-	border-bottom:4px solid #F8E71C;
+	
+	    background: linear-gradient(#f7f7f7,#f7f7f7),linear-gradient(#f7f7f7,#f7f7f7),linear-gradient(#F8E71C,#F8E71C);
+        background-size: .05em 1px,.05em 4px,4px 4px;
+        background-repeat: no-repeat,no-repeat,repeat-x;
+        text-shadow: .05em 0 #f7f7f7,-.05em 0 #f7f7f7,0 .05em #f7f7f7,0 -.05em #f7f7f7,.12em 0 #f7f7f7,-.12em 0 #f7f7f7,.18em 0 #f7f7f7,-.18em 0 #f7f7f7,.24em 0 #f7f7f7,-.24em 0 #f7f7f7,.30em 0 #f7f7f7,-.30em 0 #f7f7f7;
+        background-position: 0 95%,100% 95%,0 95%;
 }
 .article-wrapper figure {
 	background-size: cover; 

@@ -25,7 +25,7 @@ define('DB_USER', 'jdelabar');
 define('DB_PASSWORD', 'ocala32');
 
 /** MySQL hostname */
-define('DB_HOST', 'mysql.justindelabar.com');
+define('DB_HOST', 'localhost:8889');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
